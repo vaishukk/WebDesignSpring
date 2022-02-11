@@ -1,0 +1,469 @@
+/* star background image */
+body {
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+}
+
+#home{
+  height: 100%;
+}
+.container-fluid {
+  height: 100%;
+}
+.bgimage {
+    background: url('images/elvis-bekmanis-g9qwoPiS0nY-unsplash.jpg');
+    background-size:cover;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+
+.row {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+.hero-text {
+  color: white;
+  position: absolute;
+width: 95%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+margin: 0;
+}
+
+
+/*nav bar*/
+nav{
+    position: static;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+    }
+    .menu{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    }
+    .menu ul{
+    display: flex;
+    }
+    .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+    }
+    .menu ul li:first-child{
+    margin-left: 0px;
+    }
+    .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    }
+    .menu ul li a:hover{
+    background: #fff;
+    color: black;
+    }
+    .logo{
+      display: flex;
+      align-items: center;
+    }
+/* home logo */
+    #homelogo img {
+        width: 50px;
+        height: 100px;
+        font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+      }
+      /* Contact us form */
+      .heading {
+        color: white;
+        text-align: center;
+        padding: 12px 10px;
+      }
+      
+      .cont .centerTable{
+        margin: 0px auto;
+      }
+      
+      .success {
+        color : white;
+      }
+
+      button {
+        align-items: center;
+        text-align: center;
+        width: 140px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(to right, #ebe7e8, #868080);
+        border-radius: 6px;
+        cursor: pointer;
+      
+      }
+      
+      input[type=text], select, textarea {
+        width: 30%;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        resize: vertical;
+        align-items: center;
+        margin: 10px;
+      }
+
+      #country{
+        padding: 18px 15px;
+        width: 34%;
+        margin-left: 29px;
+      }
+      #subject{
+        width: 30%;
+        margin-left: 31px;
+      }
+
+      .normal{
+        padding: 12px;
+      }
+      
+      label {
+        color: white;
+        font-size: large;
+        margin: auto;
+        border: 1px solid #ccc;
+        text-align: center;
+        align-items: center;
+      }
+      
+      .contact {
+        align-items: center;
+        text-align: center;
+      }
+      
+      
+      .cont {
+        border-radius: 5px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        width: 50%;
+      }
+      
+      table{
+        align-items: center;
+        text-align: center;
+      }
+      
+      form{
+        text-align: center;
+      }
+     .cont h3{
+        color: white;
+        display: block;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 10px;
+        
+     }
+
+     /* Card layout style for projects in portfolio */
+
+     .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      border: 1px solid #f1f1f1;
+      perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden; /* Safari */
+      backface-visibility: hidden;
+    }
+    
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front {
+      background-color: #bbb;
+      color: black;
+    }
+    
+    /* Style the back side */
+    .flip-card-back {
+      background-color: rgba(75, 76, 77, 0.281);
+      color: white;
+      transform: rotateY(180deg);
+    }
+
+    .gallery {
+      width: 300px;
+      padding-top: 0px;
+      margin: 0 auto;
+  }
+
+  .certificates{
+    display: flex;
+    padding-top: 70px;
+  }
+
+  .page {
+    color:white;
+    align-items: center;
+    text-align: center;
+  }
+
+  #description {
+    color:white;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutme {
+    display : flex;
+    align-items: center;
+    
+  }
+
+  .aboutme img {
+    width: 30%;
+    height: 30%;
+    padding: 40px;
+    border: 5px solid white;
+  }
+.aboutme p {
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0px 36px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(75, 76, 77, 0.281);
+  color: white;
+}
+
+.socialntwk {
+  width: 50%;
+  color: white;
+  text-align: center;
+  font-size: large;
+  padding: 20px;
+  padding-top: 200px;
+}
+
+.social {
+  display:flex;
+  padding: 0px 65px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #882412;
+  color: white;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.desc_title {
+  padding: 20px;
+  color:white;
+}
+
+.desc_title h4, .desc_title p {
+margin: 0px;
+}
+
+.success {
+  color:white;
+  float: left;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .row {
+    text-align: center;
+    position: relative;
+    height: 100%;
+  }
+
+  .hero-text{
+    position: absolute;
+    width: 95%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+
+  .aboutme {
+    column-count: 1;
+    font-size: 1.5rem;
+  }
+
+  .aboutme p {
+    text-align: justify;
+    padding: 0px 55px;
+  }
+  .aboutme img{
+    width: 41%;
+    margin: 40px 0px;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  .social {
+    display: block;
+  }
+  .cont{
+    width: 100%;
+  }
+  .socialntwk{
+    width: 100%;
+    padding-top: 90px;
+  }
+  form {
+    text-align:center;
+  }
+  #country{
+    width: 34%;
+    margin-left: 29px;
+  }
+
+  .certificates {
+    padding-top: 20px;
+    display: block;
+  }
+  .gallery{
+    margin: 115px auto;
+  }
+
+  .aboutme {
+    display: block;
+  }
+  .aboutme p{
+    width: 95%;
+    padding-left: 20px;
+    margin: 0px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+  .menu{
+    display: block;
+    width: 100%; 
+  }
+  .menu ul{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+  .menu ul li {
+    padding: 10px;
+  }
+
+  .hero-text{
+    text-align: center;
+    padding: 0px 25px;
+  }
+  .hero-text h2{
+    margin: 20px 0px;
+  }
+  .hero-text p {
+    margin: 0px;
+    padding: 20px 0px 30px 0px;
+  }
+
+  .logo{
+    text-align: center;
+    display: block !important;
+    width: 100%;
+  }
+  .aboutme p{
+    width: 80%;
+    padding-left: 40px;
+    margin: 0px;
+  }
+}
+
+
+
+
+
+
+    

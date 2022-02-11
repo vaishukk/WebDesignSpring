@@ -1,0 +1,231 @@
+
+body {
+    margin:0;
+    background-color: black;
+  
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(58, 57, 57);
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav ul li {
+    
+    display: inline-block;
+    text-align:center; 
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover:not(.active) {
+    background-color: rgb(131, 130, 130);
+  }
+  
+  #homelogo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .row {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    
+  }
+  .col-1 {
+    position: relative;
+  }
+  
+  #phone1 {
+  
+    background-color: rgb(0, 0, 0);
+  
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 100px 0;
+  }
+  .phone1 {
+    flex-basis: 40%;
+    position: relative;
+    width: 150px;
+    padding: 20px;
+    margin: 50px;
+   
+  }
+  
+  .phone1A {
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .phone1A .photo{
+    width: 90%;
+  }
+  
+  button {
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+  
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    resize: vertical;
+    align-items: center;
+  }
+  
+  label {
+    color: white;
+    font-size: large;
+    margin: auto;
+    border: 1px solid #ccc;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .contact {
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .cont {
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  table{
+    align-items: center;
+    text-align: center;
+  }
+  
+  form{
+    align-items: center;
+    text-align: center;
+  }
+  
+  .phone1 h2 {
+    color: white;
+    font-size: 50px;
+  }
+  
+  .phone1 h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0 10px;
+  }
+  
+  .phone1 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+  }
+  
+  .phone1 h4 {
+    color: white;
+    margin: 30px 0;
+    font-size: 20px;
+  }
+  
+  .phone1 ::after {
+    content: "";
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(to right, #fb5283, #ff3527); 
+    position: absolute;
+    left: -40px;
+    top: 8px;
+  }
+  
+header {
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #fb5283, #ff3527); 
+    color: white;
+    font-size: 30px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    color: white;
+  }
+  
+  .cont .centerTable{
+    margin: 0px auto;
+  }
+
+  video {
+    width: 70%;
+     height: 5%;
+  }
+
+  .vid1 {
+
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: large;
+
+  }
+
+  .aud {
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: large;
+  }
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
